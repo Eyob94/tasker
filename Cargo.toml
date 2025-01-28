@@ -1,0 +1,11 @@
+[package]
+name = "task-manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+reqwest = "0.12.12"
+reqwest-async = "0.0.0"
+tokio = { version = "1.43.0", features = ["full"] }
+uuid = { version = "1.12.1", features = ["v7"] }
